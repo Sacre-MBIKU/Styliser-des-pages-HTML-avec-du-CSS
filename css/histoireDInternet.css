@@ -96,6 +96,7 @@ table
 
 {
     background-color: #333333;
+    
 }
 
 #tableHead > th
@@ -149,10 +150,13 @@ figcaption {
     position: absolute;
     padding: 8px;
     left: 50%;
-    bottom: -100%;
+    bottom: -190%;
     transform: translate(-50%);
-    width: 60%;
+    width: 80%;
     border: dotted 3px #6714b4;
     color: #6714b4;
     background-color: #b7b7b7;
+    font-size: 20px;
+    letter-spacing: 8px;
+    line-height: 27px;
 }
