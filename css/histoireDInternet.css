@@ -24,10 +24,19 @@ body
 {
     background-color: #c8c8c8;
     width: 100vw;
+    overflow-x: hidden;
     height: auto;
     display: flex;
     flex-wrap: wrap;
+    position: relative;
 
+}
+.container{
+    width: 80%;
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-52%);
 }
 
 /* La stylisation de l'entête de la page*/
@@ -55,9 +64,9 @@ header > h1
 }
 
 div#entetePage{
-    margin-left: 8%;
+    
     margin-top: -4.5%;
-    width: 83%;
+    width: 100%;
 }
 
 div#entetePage, section > p
@@ -76,8 +85,8 @@ div#entetePage, section > p
 section, figure
 
 {
-    margin-left: 8%;
-    width: 83%;
+    
+    width: 100%;
     height: auto;
     display: flex;
     flex-wrap: wrap;
@@ -176,6 +185,7 @@ figure {
     background-color: #333333;
     border: #e40025 1px solid;
     border-radius: 6px;
+    margin-left: -0%;
 }
 
 img{
